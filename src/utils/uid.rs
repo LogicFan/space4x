@@ -1,7 +1,7 @@
 use bevy::prelude::Component;
 use uuid::Uuid;
 
-#[derive(Component)]
+#[derive(Component, Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Hash)]
 pub struct ObjectId(Uuid);
 
 impl ObjectId {

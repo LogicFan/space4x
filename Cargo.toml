@@ -7,6 +7,7 @@ edition = "2021"
 bevy = { version = "0.11.3", features = ["dynamic_linking"] }
 uuid = "1.5.0"
 rand = "0.8.5"
+ringbuffer = "0.15.0"
 bevy_editor_pls = "0.5.0"
 
 [profile.dev]
